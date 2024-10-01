@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.results-summary-container {
+    width: 762px;
+    height: 557px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 4px 6px 100px 0px rgba(173, 197, 211, 0.40);
+
+}
+
+
+/* Your-Result-Section */
+
+.your-result-container {
+    width: 391px;
+    height: 557px;
+    background-color: #4332F1;
+    border-radius: 2rem;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: auto;
+}
+
+.header-container {
+    width: fit-content;
+    height: auto;
+}
+
+.header-container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.grade-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    background: linear-gradient(179deg, #4A24CF -25.22%, rgba(69, 51, 235, 0.00) 93.43%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-grade-container {
+    width: fit-content;
+    height: auto;
+}
+
+.number-grade-container h1 {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.total-number-grade-container {
+    width: fit-content;
+    height: auto;
+}
+
+.total-number-grade-container p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Body-component */
+
+.body-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.body-header-container {
+    width: fit-content;
+    height: auto;
+}
+
+.body-header-container h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.body-text-container {
+    width: 100%;
+    height: auto;
+}
+
+.body-text-container p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* Summary-section */
+
+.summary-section {
+    width: 371px;
+    height: 557px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 0 32px 32px 0;
+}
+
+.summary-header-container {
+    width: fit-content;
+    height: auto; 
+}
+
+.summary-header-container h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #3D3D3D;
+}
+
+.summary-grade-order-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.reaction-contanier {
+    width:300px;
+    height: 60px;
+    background-color:#FFF6F5 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.image-text-container {
+    width: 140px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-illustration-contanier {
+    width: fit-content;
+    height: auto;
+}
+
+.image-illustration-contanier img {
+    width: 24px;
+    height: 24px;
+}
+
+.summary-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.summary-text-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF5555;
+}
+
+/* Reactio -second-autolayer with the reaction */
+
+.range-total-value-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.range-value-container {
+    width: fit-content;
+    height: auto;
+}
+
+.range-value-container p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3D3D3D;
+}
+
+.total-value-container {
+    width: fit-content;
+    height: auto;
+}
+
+.total-value-container p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #C8C8C8;
+}
+
+/* Memory section */
+
+.memory-contanier {
+    width: 300px;
+    height: 60px;
+    background-color: #FFFBF2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image-illustration-contanier {
+    width: fit-content ;
+    height: auto;
+}
+
+.image-illustration-contanier img {
+    width: 24px;
+    height: 24px;
+}
+
+.memory-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.memory-text-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFB21E;
+}
+
+/* Verbal */
+
+.verbal-contanier {
+    width: 300px;
+    height: 60px;
+    background-color: #F2FBFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.image-illustration-contanier {
+    width: fit-content;
+    height: auto;
+}
+
+.image-illustration-contanier img {
+    width: 24px;
+    height: 24px;
+}
+
+.verbal-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.verbal-text-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #00BB8F;
+}
+
+/* Visual-section */
+
+.visual-contanier {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F3F3FD;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.image-illustration-contanier {
+    width: fit-content;
+    height: auto;
+}
+
+.image-illustration-contanier img {
+    width: 24px;
+    height: 24px;
+}
+
+.visual-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.visual-text-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1125D6;
+}
+
+.button-summary-section-container {
+    width: fit-content;
+    height: auto;
+}
+
+.button-summary-section-container button {
+    width: 300px;
+    height: 60px;
+    color: white;
+    border-radius: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #4635F1 25.4%, #281F8B 100.79%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}   
